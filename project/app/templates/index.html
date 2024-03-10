@@ -1,0 +1,239 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{% static 'css/index.css'%}">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+      <div class="logo"><a href="#">ECOMMERCE</a></div>
+      <div class="menu">
+        <a href="#">
+          <ion-icon name="close" class="close"></ion-icon>
+        </a>
+  
+        <ul>
+          <li><a href="#" class="under">HOME</a></li>
+          <li><a href="#" class="under">SHOP</a></li>
+          <li><a href="#" class="under">OUR PRODUCTS</a></li>
+          <li><a href="#" class="under">CONTACT US</a></li>
+          <li><a href="#" class="under">ABOUT US</a></li>
+        </ul>
+      </div>
+      <div class="search">
+  
+        <a href=""><input type="text" placeholder="search products" id="input">
+          <ion-icon class="s" name="search"></ion-icon>
+        </a>
+      </div>
+      <div class="heading">
+        <ul>
+          <li><a href="#" class="under">HOME</a></li>
+          <li><a href="#" class="under">SHOP</a></li>
+          <li><a href="#" class="under">OUR PRODUCTS</a></li>
+          <li><a href="#" class="under">CONTACT US</a></li>
+          <li><a href="#" class="under">ABOUT US</a></li>
+        </ul>
+      </div>
+      <div class="heading1">
+        <ion-icon name="menu" class="ham"></ion-icon>
+      </div>
+    </header>
+    <section>
+      <div class="section">
+        <div class="section1">
+          <div class="img-slider">
+            <img src="{% static 'images/ecommerce.png'%}" class="img">
+            <img src="{% static 'images/ecommerce2.jpeg'%}" class="img">
+            <img src="{% static 'images/ecommerce3.jpeg'%}" class="img">
+            <img src="{% static 'images/ecommerce4.jpeg'%}" class="img">
+            <img src="{% static 'images/ecommerce5.png'%}" class="img">
+            <img src="{% static 'images/ecommerce6.jpeg'%}" class="img">
+          </div>
+  
+        </div>
+        <div class="section2">
+          <div class="container">
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/shoes.png'%}"></div>
+              <div class="name">SHOES</div>
+              <div class="price">₹2,000</div>
+              <div class="info">Synthetic Leather Sneakers For Men</div>
+            </div>
+            <div class="items">
+              <div class="img img2"><img src="{% static 'images/shirt.jpg'%}"></div>
+              <div class="name">T-SHIRT</div>
+              <div class="price">₹2,000</div>
+              <div class="info">Black Printed T-SHIRT</div>
+            </div>
+            <div class="items">
+              <div class="img img3"><img src="{% static 'images/jeans.jpeg'%}"></div>
+              <div class="name">JEANS</div>
+              <div class="price">₹1,000</div>
+              <div class="info">Men Multi Slim Fit Jeans</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/watch.jpeg'%}"></div>
+              <div class="name">WATCH</div>
+              <div class="price">₹2,500</div>
+              <div class="info">Black Dial Digital Watch</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/belt.jpeg'%}"></div>
+              <div class="name">BELT</div>
+              <div class="price">₹1,500</div>
+              <div class="info">CHAOREN Leather Reversible Belts for Men</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/bags.jpg'%}"></div>
+              <div class="name">BAG</div>
+              <div class="price">₹4,000</div>
+              <div class="info">Laptop Backpack Spacy unisex backpack</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/Tv.jpg'%}"></div>
+              <div class="name">TV</div>
+              <div class="price">₹11,000</div>
+              <div class="info">SONY Ultra HD LED Smart Google TV </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/wm.jpg'%}"></div>
+              <div class="name">WASHING MACHINE</div>
+              <div class="price">₹18,000</div>
+              <div class="info">LG Washing Machine</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/re.jpg'%}"></div>
+              <div class="name">REFRIGERATOR</div>
+              <div class="price">₹21,000</div>
+              <div class="info">LG Refrigerator with Smart Inverter </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/ac.jpg'%}"></div>
+              <div class="name">AC</div>
+              <div class="price">₹41,000</div>
+              <div class="info">Panasonic Convertible Ac </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/micro.jpg'%}"></div>
+              <div class="name">MICROWAVE</div>
+              <div class="price">₹51,000</div>
+              <div class="info">Panasonic Microwave Oven  </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/iron.jpg'%}"></div>
+              <div class="name">IRON</div>
+              <div class="price">₹1,000</div>
+              <div class="info">Pigeon Dry Iron</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/dove.jpg'%}"></div>
+              <div class="name">SHAMPOO</div>
+              <div class="price">₹1,000</div>
+              <div class="info">DOVE Hair Fall Rescue Shampoo</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/surf.jpg'%}"></div>
+              <div class="name">DETERGENT</div>
+              <div class="price">₹600</div>
+              <div class="info">Surf excel Matic Top Load Detergent Powder</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/dal.jpg'%}"></div>
+              <div class="name">PACKAGE FOOD</div>
+              <div class="price">₹500</div>
+              <div class="info">Natureland Organics Yellow Toor/Arhar Dal</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/bin.jpg'%}"></div>
+              <div class="name">SNACKS</div>
+              <div class="price">₹50</div>
+              <div class="info">Bingo Tedhe Medhe Masala Tadka</div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/cold.jpg'%}"></div>
+              <div class="name">BEVERAGES</div>
+              <div class="price">₹100</div>
+              <div class="info">Maaza Mango </div>
+            </div>
+            <div class="items">
+              <div class="img img1"><img src="{% static 'images/per.jpg'%}"></div>
+              <div class="name">PERSONAL CARE</div>
+              <div class="price">₹1,000</div>
+              <div class="info">FOGG Absolute Deodorant Spray</div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+  
+    </section>
+    <footer>
+      <div class="footer0">
+        <h1>ECOMMERCE</h1>
+      </div>
+      <div class="footer1 ">
+        Connect with us at<div class="social-media">
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="product">
+          <div class="heading">Products</div>
+          <div class="div">Sell your Products</div>
+          <div class="div">Advertise</div>
+          <div class="div">Pricing</div>
+          <div class="div">Product Buisness</div>
+  
+        </div>
+        <div class="services">
+          <div class="heading">Services</div>
+          <div class="div">Return</div>
+          <div class="div">Cash Back</div>
+          <div class="div">Affiliate Marketing</div>
+          <div class="div">Others</div>
+        </div>
+        <div class="Company">
+          <div class="heading">Company</div>
+          <div class="div">Complaint</div>
+          <div class="div">Careers</div>
+          <div class="div">Affiliate Marketing</div>
+          <div class="div">Support</div>
+        </div>
+        <div class="Get Help">
+          <div class="heading">Get Help</div>
+          <div class="div">Help Center</div>
+          <div class="div">Privacy Policy</div>
+          <div class="div">Terms</div>
+          <div class="div">Login</div>
+        </div>
+      </div>
+      <div class="footer3">Copyright © <h4>ECOMMERCE</h4> 2021-2023 </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./ecommerce.js"></script>
+  
+  </body>
+  
+  </html>
